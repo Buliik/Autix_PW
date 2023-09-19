@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { CenikyPujcovnehoPage } from '../POM/ceniky-pujcovneho-page.ts';
+import { CenikyPujcovnehoPage } from '../Pages/ceniky-pujcovneho-page.ts';
 
 test('count images', async ({ page }) => {
     const cenikyPujcovnehoPage = new CenikyPujcovnehoPage(page);

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { HelpCenterPage } from '../POM/help-center-page.ts';
+import { HelpCenterPage } from '../Pages/help-center-page.ts';
 
 
 test('doplnkove sluzby', async ({ page }) => {
